@@ -1,14 +1,15 @@
-package com.maven;
+package com.java.javaApp;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class MavenAppTest {
+
+public class AppTest {
 
 	@Test
 	public void testSquare() {
-		MavenApp test = new MavenApp();
+		App test = new App();
 		int output = test.square(5);
 		assertEquals(25, output);
 	}

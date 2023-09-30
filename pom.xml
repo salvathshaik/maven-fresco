@@ -50,7 +50,7 @@
                 </execution>
             </executions>
             <configuration>
-                <mainClass>javaApp.PrimeSum</mainClass> <!-- Specify the fully qualified class name of your main class -->
+                <mainClass>javaApp.App</mainClass> <!-- Specify the fully qualified class name of your main class -->
             </configuration>
         </plugin>
 
